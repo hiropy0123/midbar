@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Midbar</title>
+    <title>ミドバール聖書塾</title>
+    <meta name="robots" content="noindex,nofollow"/>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +11,8 @@
   </head>
 
   <body>
+    <%= render 'header' %>
     <%= yield %>
+    <%= render 'footer' %>
   </body>
 </html>
