@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   get '/israeltour', to: 'pages#israeltour'
   
   # rootは最後に記述する
-  root 'front#index'
+  root 'pages#home'
 end
